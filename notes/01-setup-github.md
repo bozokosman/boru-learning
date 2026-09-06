@@ -2,7 +2,7 @@
 
 ## What Was Done (Yapılanlar)
 - GitHub account (`bozokosman`) created.
-- SSH key generated and added to GitHub (email: bozokosman@proton.me).
+- SSH key generated and added to GitHub.
 - Created the main `boru-learning` folder inside Obsidian Vault (`MindPalace`).
 - Created subfolders: `projects/`, `notes/`.
 - Created GitHub repo `boru-learning` and pushed the initial README.
