@@ -1,11 +1,14 @@
 # Session 2 - Python Basics (Day 2)
 
-## Topics Learned (Bugün Öğrenilenler)
-- Variables, data types (int, str)
-- Taking user input with `input()` and converting types with `int()`
-- Printing output with `print()`
+## Topics Learned
+- `input()` ve `print()` ile kullanıcı etkileşimi
+- `float()` ile sayısal dönüşüm (ondalıklı sayılar için)
+- `if/elif/else` ile koşullu işlemler
+- Sıfıra bölme hatasını `if` ile kontrol etme
 
-## Code Example (Calculator v1)
-```python
-# Code will be written here
-```
+## Code
+- [v1_calc.py](../projects/01-calculator/v1_calc.py)
+
+## Notes
+- `input()` her zaman string döndürür, bu yüzden `float()` ile çevirdim.
+- Bölme işleminde payda 0 ise kullanıcıyı uyarıp yeni sayı istedim.
