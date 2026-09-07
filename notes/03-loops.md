@@ -6,7 +6,7 @@
 - Menü akışını optimize etme (çıkışta sayı sormama)
 
 ## Code
-- [v2_loop_calc.py](../projects/01-calculator/v2_loop_calc.py)
+- [v2_loop_calc.py](../projects/01-calculator/v2_calc.py)
 
 ## Key Insights
 - Döngü içinde `break` ile çıkış kontrolü yapmak çok önemli.
