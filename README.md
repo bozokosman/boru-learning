@@ -21,3 +21,6 @@ This repository contains all the projects and versions I develop during my Pytho
 
 ### 2. Number Guessing Game
 - `v1_guess.py` – Guess the number with 5 attempts (while loop + else)
+
+### 3. Login System
+- `v1_login.py` – Simple user/password login with 3 attempts (while/else)
