@@ -45,4 +45,5 @@ def main():
         else:
             print("Bir yanlışlık olmuş olmalı. Lütfen baştan başlayınız.")
 
-print(main())
+if __name__ == "__main__": main()
+main()
