@@ -27,3 +27,6 @@ This repository contains all the projects and versions I develop during my Pytho
 
 ### 3. Login System
 - `v1_login.py` – Simple login with 3 attempts (while loop + else)
+
+### 4. Currency Tracker
+- `v1_currency.py` – Rates, conversion, portfolio, and history (dict/set/tuple/list)
