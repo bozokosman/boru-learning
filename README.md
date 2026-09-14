@@ -13,7 +13,9 @@ This repository contains all the projects and versions I develop during my Pytho
 - **Day 1:** Setup completed (Git, SSH, GitHub, Obsidian).
 - **Day 2:** Python basics & Calculator v1 (addition, subtraction, multiplication, division with zero check).
 - **Day 3:** Loops & Calculator v2 (infinite loop + exit option), Guessing Game v1 (while/else with move counter).
-- **Day 4:** Functions & Calculator v3 (modular functions), Guessing Game v2 (functions + if __name__), Login System v1 (user auth with loop).
+- **Day 4:** Functions & Calculator v3 (modular functions), Guessing Game v2 (functions + if __name__), Login System v2 (credential check with functions).
+- **Day 5:** Data Structures (dict, set, tuple, list) & Currency Tracker v1 (rates, conversion, portfolio, history).
+- **Day 6:** JSON & File I/O & Currency Tracker v2 (data persistence with data.json).
 
 ## 📁 Projects
 ### 1. Calculator
@@ -27,6 +29,8 @@ This repository contains all the projects and versions I develop during my Pytho
 
 ### 3. Login System
 - `v1_login.py` – Simple login with 3 attempts (while loop + else)
+- `v2_login.py` – Refactored with functions (`check_credentials`, `get_credentials`)
 
 ### 4. Currency Tracker
 - `v1_currency.py` – Rates, conversion, portfolio, and history (dict/set/tuple/list)
+- `v2_currency.py` – Added JSON persistence (`load_data`, `save_data`)
