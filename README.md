@@ -16,6 +16,7 @@ This repository contains all the projects and versions I develop during my Pytho
 - **Day 4:** Functions & Calculator v3 (modular functions), Guessing Game v2 (functions + if __name__), Login System v2 (credential check with functions).
 - **Day 5:** Data Structures (dict, set, tuple, list) & Currency Tracker v1 (rates, conversion, portfolio, history).
 - **Day 6:** JSON & File I/O & Currency Tracker v2 (data persistence with data.json).
+- **Day 7:** Datetime & JSON Advanced & Guessing Game v3 (high scores, game history, chronometer with datetime).
 
 ## 📁 Projects
 ### 1. Calculator
@@ -26,6 +27,7 @@ This repository contains all the projects and versions I develop during my Pytho
 ### 2. Number Guessing Game
 - `v1_guess.py` – Guess the number with 5 attempts (while loop + else)
 - `v2_guess.py` – Refactored with functions (`get_guess`, `check_guess`)
+- `v3_guess.py` – JSON persistence, high scores table, full history, and chronometer (datetime)
 
 ### 3. Login System
 - `v1_login.py` – Simple login with 3 attempts (while loop + else)
