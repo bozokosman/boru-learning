@@ -17,12 +17,14 @@ This repository contains all the projects and versions I develop during my Pytho
 - **Day 5:** Data Structures (dict, set, tuple, list) & Currency Tracker v1 (rates, conversion, portfolio, history).
 - **Day 6:** JSON & File I/O & Currency Tracker v2 (data persistence with data.json).
 - **Day 7:** Datetime & JSON Advanced & Guessing Game v3 (high scores, game history, chronometer with datetime).
+- **Day 8:** JSON Advanced & Calculator v4 (history persistence with data_calc.json).
 
 ## 📁 Projects
 ### 1. Calculator
 - `v1_calc.py` – Basic arithmetic operations
 - `v2_calc.py` – Infinite loop + exit option
 - `v3_calc.py` – Modular structure with functions
+- `v4_calc.py` – JSON history persistence
 
 ### 2. Number Guessing Game
 - `v1_guess.py` – Guess the number with 5 attempts (while loop + else)
