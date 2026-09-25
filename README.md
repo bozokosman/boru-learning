@@ -18,6 +18,7 @@ This repository contains all the projects and versions I develop during my Pytho
 - **Day 6:** JSON & File I/O & Currency Tracker v2 (data persistence with data.json).
 - **Day 7:** Datetime & JSON Advanced & Guessing Game v3 (high scores, game history, chronometer with datetime).
 - **Day 8:** JSON Advanced & Calculator v4 (history persistence with data_calc.json).
+- **Day 9:** JSON Login System & Login System v3 (multi-user registration and login with data_login.json).
 
 ## 📁 Projects
 ### 1. Calculator
@@ -34,6 +35,7 @@ This repository contains all the projects and versions I develop during my Pytho
 ### 3. Login System
 - `v1_login.py` – Simple login with 3 attempts (while loop + else)
 - `v2_login.py` – Refactored with functions (`check_credentials`, `get_credentials`)
+- `v3_login.py` – JSON-based multi-user registration and login
 
 ### 4. Currency Tracker
 - `v1_currency.py` – Rates, conversion, portfolio, and history (dict/set/tuple/list)
