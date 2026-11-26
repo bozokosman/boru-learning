@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 01-python
 
 Python study material, one folder per topic, in learning order.

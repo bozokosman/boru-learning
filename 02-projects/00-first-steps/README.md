@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 00-first-steps
 
 Three small scripts from May 2026, before the structured course:

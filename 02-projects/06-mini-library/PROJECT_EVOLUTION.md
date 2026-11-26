@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](PROJECT_EVOLUTION.tr.md)
+
 Python Fundamentals
         │
         ▼

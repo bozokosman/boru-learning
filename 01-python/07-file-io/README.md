@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 07-file-io
 
 `tutorial/inputoutput.py` and `tutorial/inputoutput.md`: reading and writing files, with notes.

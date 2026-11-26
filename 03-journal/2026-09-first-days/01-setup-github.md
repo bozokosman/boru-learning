@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](01-setup-github.tr.md)
+
 # Session 1 - September 6, 2026 (Setup)
 
 ## What Was Done (Yapılanlar)

@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # AI Integration
 
 Stage 1, planned for Nov-Dec 2027. See [ROADMAP.md](../ROADMAP.md).

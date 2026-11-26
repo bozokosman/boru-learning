@@ -1,16 +1,16 @@
+🇹🇷 [Türkçe](sets.tr.md)
+
 # Sets
 
-> 🇬🇧 [Click here for English documentation](README.md)
+## 1. What is a Set?
+A Set is a data type in Python used to store multiple values in a single structure.
 
-## 1. Set Nedir?
-Set, Python'da birden fazla değeri tek bir yapı içerisinde saklamak için kullanılan veri tipidir.
-
-Set'lerin en önemli özellikleri:
-- Benzersiz elemanlar saklar.
-- Aynı elemanı birden fazla kez saklamaz.
-- İndeksleme desteklemez.
-- Değiştirilebilir bir veri yapısıdır.
-- Küme işlemlerini destekler.
+The most important features of sets:
+- Stores unique elements.
+- Does not store the same element more than once.
+- Does not support indexing.
+- It is a mutable data structure.
+- Supports mathematical set operations.
 
 ```python
 numbers = {10, 20, 30, 40}
@@ -18,13 +18,13 @@ numbers = {10, 20, 30, 40}
 print(numbers)
 ```
 
-## 2. Set Oluşturma
-Set oluşturmak için süslü parantezler kullanılabilir.
+## 2. Creating a Set
+Curly braces can be used to create a set.
 
 ```python
 numbers = {10, 20, 30}
 ```
-String değerlerden oluşan bir set:
+A set consisting of string values:
 ```python
 books = {
     "Python101",
@@ -33,30 +33,30 @@ books = {
 }
 ```
 
-## 3. Duplicate Elemanlar
-Set aynı değeri birden fazla kez saklamaz.
+## 3. Duplicate Elements
+A set does not store the same value more than once.
 
 ```python
 numbers = {10, 20, 20, 30, 30, 30}
 
 print(numbers)
 ```
-Sonuçta her değer yalnızca bir kez bulunur. Bu özellik özellikle tekrar eden verileri temizlemek için kullanışlıdır.
+As a result, each value is present only once. This feature is especially useful for cleaning up repetitive data.
 
-## 4. Boş Set
-Boş bir set oluşturmak için sadece `{}` kullanılamaz.
+## 4. Empty Set
+You cannot use just `{}` to create an empty set.
 
 ```python
 empty_set = set()
 ```
-Çünkü:
+Because:
 ```python
 empty = {}
 ```
-ifadesi boş bir dictionary oluşturur.
+creates an empty dictionary.
 
-## 5. Set'e Eleman Ekleme
-Set'e tek bir eleman eklemek için `add()` kullanılır.
+## 5. Adding Elements to a Set
+To add a single element to a set, `add()` is used.
 
 ```python
 books = {"Python101", "Clean Code"}
@@ -66,8 +66,8 @@ books.add("Computer Science")
 print(books)
 ```
 
-## 6. Birden Fazla Eleman Ekleme
-Birden fazla eleman eklemek için `update()` kullanılabilir.
+## 6. Adding Multiple Elements
+To add multiple elements, `update()` can be used.
 
 ```python
 books = {"Python101"}
@@ -80,10 +80,10 @@ books.update({
 
 print(books)
 ```
-`update()` bir iterable içerisindeki elemanları sete ekler.
+`update()` adds elements from an iterable to the set.
 
-## 7. Eleman Silme — remove()
-Belirli bir elemanı silmek için `remove()` kullanılabilir.
+## 7. Removing Elements — remove()
+To remove a specific element, `remove()` can be used.
 
 ```python
 books = {
@@ -96,10 +96,10 @@ books.remove("Clean Code")
 
 print(books)
 ```
-Eğer eleman sette yoksa `remove()` hata verir.
+If the element is not in the set, `remove()` raises an error.
 
-## 8. Eleman Silme — discard()
-`discard()` da eleman siler. Ancak eleman sette bulunmuyorsa hata vermez.
+## 8. Removing Elements — discard()
+`discard()` also removes an element. However, if the element is not in the set, it does not raise an error.
 
 ```python
 books = {
@@ -111,10 +111,10 @@ books.discard("Computer Science")
 
 print(books)
 ```
-Bu nedenle `remove()` ve `discard()` arasındaki fark önemlidir.
+Therefore, the difference between `remove()` and `discard()` is important.
 
 ## 9. pop()
-`pop()` set içerisinden bir elemanı siler ve silinen elemanı döndürür.
+`pop()` removes an element from the set and returns the removed element.
 
 ```python
 books = {
@@ -128,10 +128,10 @@ removed_book = books.pop()
 print(removed_book)
 print(books)
 ```
-Set indeksli olmadığı için hangi elemanın silineceğine güvenilmemelidir.
+Since sets are unordered and not indexed, you cannot rely on which element will be removed.
 
 ## 10. clear()
-Set içerisindeki bütün elemanları silmek için `clear()` kullanılır.
+To remove all elements from a set, `clear()` is used.
 
 ```python
 books = {
@@ -143,13 +143,13 @@ books.clear()
 
 print(books)
 ```
-Sonuç:
+Result:
 ```python
 set()
 ```
 
 ## 11. len()
-Set içerisindeki eleman sayısını bulmak için `len()` kullanılabilir.
+To find the number of elements in a set, `len()` can be used.
 
 ```python
 numbers = {10, 20, 30, 40}
@@ -158,7 +158,7 @@ print(len(numbers))
 ```
 
 ## 12. in
-Bir elemanın set içerisinde bulunup bulunmadığını kontrol etmek için `in` kullanılabilir.
+To check whether an element is present in a set, `in` can be used.
 
 ```python
 books = {
@@ -170,8 +170,8 @@ print("Python101" in books)
 print("C++" in books)
 ```
 
-## 13. Set Üzerinde for
-Set üzerinde for döngüsü kullanılabilir.
+## 13. for Loop on a Set
+A `for` loop can be used on a set.
 
 ```python
 books = {
@@ -183,14 +183,13 @@ books = {
 for book in books:
     print(book)
 ```
-Set indeksli olmadığı için:
+Since the set is not indexed, a usage like this cannot be done:
 ```python
 books[0]
 ```
-gibi bir kullanım yapılamaz.
 
 ## 14. Set Union
-İki setin bütün elemanlarını birleştirmek için `union` işlemi kullanılabilir.
+To combine all elements of two sets, the `union` operation can be used.
 
 ```python
 python_books = {
@@ -207,14 +206,14 @@ result = python_books.union(programming_books)
 
 print(result)
 ```
-`|` operatörü de union işlemi için kullanılabilir.
+The `|` operator can also be used for the union operation.
 ```python
 result = python_books | programming_books
 ```
-Aynı elemanlar sonuçta yalnızca bir kez bulunur.
+Identical elements are present only once in the result.
 
 ## 15. Set Intersection
-İki sette ortak bulunan elemanları bulmak için `intersection` kullanılır.
+To find the common elements in two sets, `intersection` is used.
 
 ```python
 python_books = {
@@ -233,13 +232,13 @@ result = python_books.intersection(programming_books)
 
 print(result)
 ```
-`&` operatörü de kullanılabilir.
+The `&` operator can also be used.
 ```python
 result = python_books & programming_books
 ```
 
 ## 16. Set Difference
-Bir sette olup diğer sette olmayan elemanları bulmak için `difference` kullanılır.
+To find elements that are in one set but not in another, `difference` is used.
 
 ```python
 python_books = {
@@ -257,13 +256,13 @@ result = python_books.difference(programming_books)
 
 print(result)
 ```
-`-` operatörü de kullanılabilir.
+The `-` operator can also be used.
 ```python
 result = python_books - programming_books
 ```
 
 ## 17. Symmetric Difference
-İki sette bulunan fakat her ikisinde ortak olmayan elemanları bulmak için `symmetric_difference` kullanılabilir.
+To find elements that are in either of the sets but not in both, `symmetric_difference` can be used.
 
 ```python
 set1 = {
@@ -282,20 +281,20 @@ result = set1.symmetric_difference(set2)
 
 print(result)
 ```
-`^` operatörü de kullanılabilir.
+The `^` operator can also be used.
 ```python
 result = set1 ^ set2
 ```
-Sonuç:
+Result:
 ```python
 {1, 2, 4, 5}
 ```
 
-## 18. Set Karşılaştırmaları
-Set'ler birbirleriyle karşılaştırılabilir.
+## 18. Set Comparisons
+Sets can be compared with each other.
 
 **issubset()**
-Bir setin diğer setin alt kümesi olup olmadığını kontrol eder.
+Checks if a set is a subset of another set.
 ```python
 small = {1, 2}
 large = {1, 2, 3, 4}
@@ -304,7 +303,7 @@ print(small.issubset(large))
 ```
 
 **issuperset()**
-Bir setin diğer seti kapsayıp kapsamadığını kontrol eder.
+Checks if a set contains another set.
 ```python
 large = {1, 2, 3, 4}
 small = {1, 2}
@@ -313,7 +312,7 @@ print(large.issuperset(small))
 ```
 
 **isdisjoint()**
-İki sette ortak eleman bulunup bulunmadığını kontrol eder.
+Checks if two sets have a null intersection (no common elements).
 ```python
 set1 = {1, 2, 3}
 set2 = {4, 5, 6}
@@ -321,7 +320,7 @@ set2 = {4, 5, 6}
 print(set1.isdisjoint(set2))
 ```
 
-## 19. Set ve List Arasındaki Temel Fark
+## 19. Main Difference Between Set and List
 **List:**
 ```python
 books = [
@@ -330,7 +329,7 @@ books = [
     "Python101"
 ]
 ```
-List aynı elemanı birden fazla kez saklayabilir.
+A list can store the same element more than once.
 
 **Set:**
 ```python
@@ -340,10 +339,10 @@ books = {
     "Python101"
 }
 ```
-Set tekrar eden elemanları tekilleştirir.
+A set deduplicates repeating elements.
 
-## 20. Listeden Set Oluşturma
-Bir listeden set oluşturulabilir.
+## 20. Creating a Set from a List
+A set can be created from a list.
 
 ```python
 numbers = [
@@ -359,10 +358,10 @@ unique_numbers = set(numbers)
 
 print(unique_numbers)
 ```
-Bu yöntem tekrar eden değerleri temizlemek için kullanılabilir.
+This method can be used to clear repetitive values.
 
-## 21. Set'ten Liste Oluşturma
-Bir set tekrar listeye dönüştürülebilir.
+## 21. Creating a List from a Set
+A set can be converted back to a list.
 
 ```python
 numbers = {10, 20, 30}
@@ -372,8 +371,8 @@ numbers_list = list(numbers)
 print(numbers_list)
 ```
 
-## 22. Set ve Dictionary Farkı
-İkisi de `{}` kullanabildiği için başlangıçta karıştırılabilir.
+## 22. Difference Between Set and Dictionary
+Because both can use `{}`, they can be confusing at first.
 
 **Set:**
 ```python
@@ -390,43 +389,43 @@ book = {
     "author": "Osman Bozok"
 }
 ```
-Set değerlerden oluşur. Dictionary ise key: value çiftlerinden oluşur.
+A Set consists of values. A Dictionary consists of key: value pairs.
 
-Boş yapı oluştururken:
-- `set()` boş set,
-- `{}` ise boş dictionary oluşturur.
+When creating an empty structure:
+- `set()` creates an empty set,
+- `{}` creates an empty dictionary.
 
-## 23. Özet
+## 23. Summary
 **Set:**
-- Benzersiz elemanlar saklar.
-- Duplicate değerleri kaldırır.
-- İndeksleme desteklemez.
-- `add()` ile eleman eklenebilir.
-- `update()` ile birden fazla eleman eklenebilir.
-- `remove()` ve `discard()` ile eleman silinebilir.
-- `pop()` ile bir eleman kaldırılabilir.
-- `clear()` bütün elemanları siler.
-- `union()` iki seti birleştirir.
-- `intersection()` ortak elemanları bulur.
-- `difference()` farklı elemanları bulur.
-- `symmetric_difference()` ortak olmayan elemanları bulur.
-- `issubset()` alt küme kontrolü yapar.
-- `issuperset()` üst küme kontrolü yapar.
-- `isdisjoint()` ortak eleman kontrolü yapar.
+- Stores unique elements.
+- Removes duplicate values.
+- Does not support indexing.
+- Elements can be added with `add()`.
+- Multiple elements can be added with `update()`.
+- Elements can be removed with `remove()` and `discard()`.
+- An element can be removed with `pop()`.
+- `clear()` deletes all elements.
+- `union()` combines two sets.
+- `intersection()` finds common elements.
+- `difference()` finds different elements.
+- `symmetric_difference()` finds elements that are not common.
+- `issubset()` checks for a subset.
+- `issuperset()` checks for a superset.
+- `isdisjoint()` checks for common elements.
 
-Temel set oluşturma:
+Basic set creation:
 ```python
 numbers = {1, 2, 3, 4}
 ```
-Temel eleman ekleme:
+Basic element addition:
 ```python
 numbers.add(5)
 ```
-Temel üyelik kontrolü:
+Basic membership check:
 ```python
 print(3 in numbers)
 ```
-Set'lerin en güçlü kullanım alanlarından biri tekrar eden değerleri temizlemektir:
+One of the most powerful use cases of sets is to clean repetitive values:
 ```python
 numbers = [1, 2, 2, 3, 3, 4]
 

@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # SQL
 
 Stage 1, planned for Jun-Jul 2027. See [ROADMAP.md](../ROADMAP.md).

@@ -1,6 +1,6 @@
-# Python Fundamentals
+🇹🇷 [Türkçe](README.tr.md)
 
-> 🇹🇷 [Türkçe doküman için tıklayın](README_TR.md)
+# Python Fundamentals
 
 This section contains the fundamental building blocks of the Python learning path.
 

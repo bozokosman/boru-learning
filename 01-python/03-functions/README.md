@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 03-functions
 
 - `notes/functions-intro.md`: early functions notes from the fundamentals phase

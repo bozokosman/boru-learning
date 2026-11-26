@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 08 - Regular Expressions
 
 Learned in CS50P week 7, filled here in the post-CS50P sprint: `re`, patterns, validation.

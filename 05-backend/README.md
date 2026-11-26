@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # Backend
 
 Stage 1, planned for Aug-Oct 2027. See [ROADMAP.md](../ROADMAP.md).

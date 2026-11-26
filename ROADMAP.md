@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](ROADMAP.tr.md)
+
 # Roadmap
 
 > **Kısaca (TR):** Tek plan bu dosya. Önce CS50P, tamamı ve sadece o. Bitince boru-learning'e yüklenme dönemi: Mini Library CS50P'de öğrendiklerimle V4'ten V9'a büyür. Sonra SQL, backend, AI ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir roadmap görürsen bu dosyayı değiştirmeden önce bir hafta bekle ve mentorunla konuş.

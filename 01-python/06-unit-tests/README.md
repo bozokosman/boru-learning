@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 06 - Unit Tests
 
 Learned in CS50P week 5, filled here in the post-CS50P sprint: `pytest`, `assert`, testing functions.

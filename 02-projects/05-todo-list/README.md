@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 05-todo-list
 
 `v1_todo.py`: command-line to-do list (list, add, delete tasks).

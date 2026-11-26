@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 02-data-structures
 
 Lists, tuples, sets and dictionaries, each in its own folder with `notes/`, `examples/` and `exercises/`.

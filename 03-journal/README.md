@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 03-journal
 
 Dated study journals. Each subfolder is one period.

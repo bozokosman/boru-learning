@@ -1,3 +1,5 @@
+🇬🇧 [English](README.md)
+
 # Python Fundamentals
 
 Bu bölüm, Python öğrenme yolunun temel yapı taşlarını içerir.

@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # 09-oop
 
 `tutorial/classes.py`, `classes2.py`, `classes3.py`: a small OOP series (classes, inheritance, operator overloading).

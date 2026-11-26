@@ -1,3 +1,5 @@
+🇹🇷 [Türkçe](README.tr.md)
+
 # Boru Learning - Learn Like a Wolf 🐺
 
 I am learning Python with the goal of working in backend development and AI. This repository holds my notes, exercises and projects, including the unfinished and broken ones, because they are the learning trace.
@@ -25,6 +27,8 @@ I am learning Python with the goal of working in backend development and AI. Thi
 04-sql/   05-backend/   06-ai/
 ```
 Python topics 04-09 follow CS50P weeks 3-8. Folders that say "not started" in their README are the road ahead.
+
+Docs come in two languages: `X.md` is English, `X.tr.md` is Turkish. Notes without a twin are written in Turkish.
 
 ## 🔍 Transparency
 Files in `01-python/*/examples/` were generated with ChatGPT as study material (Jul-Aug 2026); `exercises/`, `tutorial/` and everything in `02-projects/` is my own code.
