@@ -1,42 +1,36 @@
 # Boru Learning - Learn Like a Wolf 🐺
 
-This repository contains all the projects and versions I develop during my Python learning journey.
+I am learning Python with the goal of working in backend development and AI. This repository holds my notes, exercises and projects, including the unfinished and broken ones, because they are the learning trace.
 
 ## 🐺 Philosophy
 "Learn alone, learn strong, learn like a wolf."
 
-## 📁 Project Structure
-- `projects/`: All Python projects (versioned v1, v2, v3...)
-- `notes/`: My Obsidian notes (bilingual: English headings, Turkish explanations)
-
 ## 🚀 Current Status
-- **Day 1:** Setup completed (Git, SSH, GitHub, Obsidian).
-- **Day 2:** Python basics & Calculator v1 (addition, subtraction, multiplication, division with zero check).
-- **Day 3:** Loops & Calculator v2 (infinite loop + exit option), Guessing Game v1 (while/else with move counter).
-- **Day 4:** Functions & Calculator v3 (modular functions), Guessing Game v2 (functions + if __name__), Login System v2 (credential check with functions).
-- **Day 5:** Data Structures (dict, set, tuple, list) & Currency Tracker v1 (rates, conversion, portfolio, history).
-- **Day 6:** JSON & File I/O & Currency Tracker v2 (data persistence with data.json).
-- **Day 7:** Datetime & JSON Advanced & Guessing Game v3 (high scores, game history, chronometer with datetime).
-- **Day 8:** JSON Advanced & Calculator v4 (history persistence with data_calc.json).
-- **Day 9:** JSON Login System & Login System v3 (multi-user registration and login with data_login.json).
+- Currently working through CS50P (week 3). Problem set solutions are kept in a separate private repository, to respect CS50's academic honesty policy.
+- Main project: [`02-projects/06-mini-library`](02-projects/06-mini-library) (v1-v3, command-line library manager, moving from dicts to OOP).
+- Plan and next steps: see [ROADMAP.md](ROADMAP.md).
 
-## 📁 Projects
-### 1. Calculator
-- `v1_calc.py` – Basic arithmetic operations
-- `v2_calc.py` – Infinite loop + exit option
-- `v3_calc.py` – Modular structure with functions
-- `v4_calc.py` – JSON history persistence
+## 📁 Structure
+```
+01-python/
+  01-fundamentals/   02-data-structures/   03-functions/
+  04-exceptions/     05-libraries/         07-file-io/    09-oop/
+02-projects/
+  00-first-steps/    01-calculator/        02-guessing-game/
+  03-login-system/   04-currency-tracker/  05-todo-list/
+  06-mini-library/
+03-journal/
+  2026-09-first-days/
+```
+Topic folders are created when I start the topic, so numbering gaps (06 unit tests, 08 regex) are intentional.
 
-### 2. Number Guessing Game
-- `v1_guess.py` – Guess the number with 5 attempts (while loop + else)
-- `v2_guess.py` – Refactored with functions (`get_guess`, `check_guess`)
-- `v3_guess.py` – JSON persistence, high scores table, full history, and chronometer (datetime)
+## 🔍 Transparency
+Files in `01-python/*/examples/` were generated with ChatGPT as study material (Jul-Aug 2026); `exercises/`, `tutorial/` and everything in `02-projects/` is my own code.
 
-### 3. Login System
-- `v1_login.py` – Simple login with 3 attempts (while loop + else)
-- `v2_login.py` – Refactored with functions (`check_credentials`, `get_credentials`)
-- `v3_login.py` – JSON-based multi-user registration and login
-
-### 4. Currency Tracker
-- `v1_currency.py` – Rates, conversion, portfolio, and history (dict/set/tuple/list)
-- `v2_currency.py` – Added JSON persistence (`load_data`, `save_data`)
+## 📁 Projects (versioned v1, v2, v3...)
+- **Calculator** (v1-v4): basic arithmetic, loop and exit, functions, JSON history
+- **Number Guessing Game** (v1-v3): while/else, functions, JSON high scores with a chronometer
+- **Login System** (v1-v3): 3 attempts, functions, JSON multi-user (demo credentials only)
+- **Currency Tracker** (v1-v2): rates, conversion, portfolio, JSON persistence
+- **To-Do List** (v1)
+- **Mini Library** (v1-v3): dict menu, then Book/Library classes
