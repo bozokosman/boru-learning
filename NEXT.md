@@ -1,6 +1,6 @@
 # Next
 
 **Now:** CS50P Problem Set 3 (Exceptions). CS50 Duck only.
-**Then:** Mini Library V3: finish `search_book()` (compare `search_name == book.name`, not `in`). After that V4: `try/except` for bad input.
+**Then:** CS50P week 4, and so on until the certificate. Mini Library waits for the post-CS50P sprint (see ROADMAP).
 
 _Update this line at the end of every session._

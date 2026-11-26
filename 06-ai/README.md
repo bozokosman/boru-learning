@@ -1,6 +1,6 @@
 # AI Integration
 
-Stage 1, planned for Sep-Oct 2027. See [ROADMAP.md](../ROADMAP.md).
+Stage 1, planned for Nov-Dec 2027. See [ROADMAP.md](../ROADMAP.md).
 LLM APIs directly: structured output, tool calling, embeddings.
 - `notes/`: what I learned, in my own words
 - `exercises/`: my own practice code
