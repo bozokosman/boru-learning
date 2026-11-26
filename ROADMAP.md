@@ -48,14 +48,14 @@ My notes from Stage 1 (what I misunderstood and how I fixed it) are the raw mate
 1. I write the code. AI is a teacher and a reviewer, not an author: hints and questions, no code. Stuck for 15 minutes? Ask for a hint, not for the answer.
 2. Every topic ends with something I built, not something I watched. A new topic means rewriting a project I already know with the new tool (that is how Calculator v1-v4 happened).
 3. A missed day is fine; try not to miss two in a row. After a longer break, come back small: run the last code, read `NEXT.md`, no guilt.
-4. The folder skeleton is ready in advance (my mentor builds it in seconds), so my time goes to learning, not to structure.
+4. The folder skeleton is ready in advance, so my time goes to learning, not to structure.
 5. Old versions are never deleted: v1, v2, v3... show how I learned.
 6. Each version gets a short `NOTES.md` entry in my own words: what I got wrong, how I fixed it.
 7. This is the only roadmap. A new roadmap or video waits one week before it can change anything here.
 8. Work, sleep and family come first. A plan that breaks them is a bad plan.
 9. Every session ends with one line in `NEXT.md`.
 10. New tools and setups get a one-hour box. They never eat a learning day; if it does not work in an hour, drop it.
-11. Before every push: no e-mail, password or API key in the files. Keys are never pasted into a chat; a leaked key is revoked.
+11. API keys and passwords are never pasted into a chat. A leaked key is revoked right away.
 
 ## Checkpoints
 

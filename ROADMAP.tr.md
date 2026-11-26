@@ -48,14 +48,14 @@ bilgisayar mimarisi, işletim sistemleri ve Linux, ağ, veri yapıları ve algor
 1. Kodu ben yazarım. Yapay zekâ öğretmen ve gözden geçirendir, yazar değil: ipucu ve soru verir, kod vermez. 15 dakikadır takıldın mı? Cevabı değil, ipucunu iste.
 2. Her konu, izlediğim değil, yaptığım bir şeyle biter. Yeni bir konu, zaten bildiğim bir projeyi yeni araçla yeniden yazmak demektir (Calculator v1-v4 böyle oldu).
 3. Bir gün kaçırmak sorun değil; üst üste iki gün kaçırmamaya çalış. Uzun bir aradan sonra küçük başla: son kodu çalıştır, `NEXT.md`'yi oku, suçluluk yok.
-4. Klasör iskeleti önceden hazır (mentorum saniyeler içinde kuruyor), böylece zamanım yapıya değil öğrenmeye gider.
+4. Klasör iskeleti önceden hazır, böylece zamanım yapıya değil öğrenmeye gider.
 5. Eski sürümler asla silinmez: v1, v2, v3... nasıl öğrendiğimi gösterir.
 6. Her sürüme kendi cümlelerimle kısa bir `NOTES.md` girdisi yazılır: neyi yanlış yaptım, nasıl düzelttim.
 7. Tek yol haritası bu. Yeni bir yol haritası ya da video, burada bir şeyi değiştirebilmek için bir hafta bekler.
 8. İş, uyku ve aile önce gelir. Bunları bozan plan kötü plandır.
 9. Her oturum `NEXT.md` içinde tek bir satırla biter.
 10. Yeni araçlar ve kurulumlar bir saatlik kutu alır. Hiçbir zaman bir öğrenme gününü yemez; bir saatte çalışmazsa bırak.
-11. Her push'tan önce: dosyalarda e-posta, parola ya da API anahtarı olmasın. Anahtarlar asla bir sohbete yapıştırılmaz; sızan anahtar iptal edilir.
+11. API anahtarları ve parolalar asla bir sohbete yapıştırılmaz. Sızan anahtar hemen iptal edilir.
 
 ## Kontrol Noktaları
 
