@@ -2,7 +2,7 @@
 
 # Yol Haritası
 
-> **Kısaca:** Tek plan bu dosya. Önce CS50P, tamamı ve sadece o. Bitince boru-learning'e yüklenme dönemi: Mini Library, CS50P'de öğrendiklerimle V4'ten V9'a büyür. Sonra SQL, backend, yapay zekâ ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir yol haritası görürsen bu dosyayı değiştirmeden önce bir hafta bekle ve mentorunla konuş.
+> **Kısaca:** Tek plan bu dosya. Önce CS50P, tamamı ve sadece o. Bitince boru-learning'e yüklenme dönemi: Mini Library, CS50P'de öğrendiklerimle V4'ten V9'a büyür. Sonra SQL, backend, yapay zekâ ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir yol haritası görürsem bu dosyayı değiştirmeden önce bir hafta beklerim.
 
 **Hedef:** Junior backend geliştirici (Python + yapay zekâ entegrasyonu), 2028 başında işe hazır.
 **Odak kuralı:** Her seferinde tek şey. Önce CS50P, tamamen. Geri kalan her şey bekler.

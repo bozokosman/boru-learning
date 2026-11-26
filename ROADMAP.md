@@ -2,7 +2,7 @@
 
 # Roadmap
 
-> **Kısaca (TR):** Tek plan bu dosya. Önce CS50P, tamamı ve sadece o. Bitince boru-learning'e yüklenme dönemi: Mini Library CS50P'de öğrendiklerimle V4'ten V9'a büyür. Sonra SQL, backend, AI ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir roadmap görürsen bu dosyayı değiştirmeden önce bir hafta bekle ve mentorunla konuş.
+> **Kısaca (TR):** Tek plan bu dosya. Önce CS50P, tamamı ve sadece o. Bitince boru-learning'e yüklenme dönemi: Mini Library CS50P'de öğrendiklerimle V4'ten V9'a büyür. Sonra SQL, backend, AI ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir yol haritası görürsem bu dosyayı değiştirmeden önce bir hafta beklerim.
 
 **Goal:** Junior backend developer (Python + AI integration), job-ready by early 2028.
 **Focus rule:** one thing at a time. CS50P first, completely. Everything else waits.

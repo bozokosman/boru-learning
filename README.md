@@ -31,7 +31,7 @@ Python topics 04-09 follow CS50P weeks 3-8. Folders that say "not started" in th
 Docs come in two languages: `X.md` is English, `X.tr.md` is Turkish. Notes without a twin are written in Turkish.
 
 ## 🔍 Transparency
-Files in `01-python/*/examples/` were generated with ChatGPT as study material (Jul-Aug 2026); `exercises/`, `tutorial/` and everything in `02-projects/` is my own code.
+The files in `01-python/*/examples/` are study examples I prepared with ChatGPT (Jul-Aug 2026); `exercises/`, `tutorial/` and everything in `02-projects/` is my own code.
 
 ## 📁 Projects (versioned v1, v2, v3...)
 - **Calculator** (v1-v4): basic arithmetic, loop and exit, functions, JSON history

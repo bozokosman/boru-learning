@@ -31,7 +31,7 @@ Python konuları 04-09, CS50P 3-8. haftaları izler. README'sinde "not started" 
 Dokümanlar iki dilde: `X.md` İngilizce, `X.tr.md` Türkçedir. İkizi olmayan notlar Türkçe yazılmıştır.
 
 ## 🔍 Şeffaflık
-`01-python/*/examples/` altındaki dosyalar ChatGPT ile çalışma materyali olarak üretildi (Tem-Ağu 2026); `exercises/`, `tutorial/` ve `02-projects/` altındaki her şey kendi kodumdur.
+`01-python/*/examples/` altındaki dosyalar ChatGPT ile hazırladığım çalışma örnekleridir (Tem-Ağu 2026); `exercises/`, `tutorial/` ve `02-projects/` altındaki her şey kendi kodumdur.
 
 ## 📁 Projeler (sürümlü v1, v2, v3...)
 - **Calculator** (v1-v4): temel aritmetik, döngü ve çıkış, fonksiyonlar, JSON geçmişi

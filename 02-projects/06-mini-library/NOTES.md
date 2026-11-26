@@ -16,6 +16,6 @@ Eski V1 algoritmasını doğrudan kopyalamak yerine OOP mantığına uyarlamam g
 
 ---
 
-## Mentor Notu
+## Kendime Not
 
 Bir methodun sorumluluğunu düşünmeden kod yazmamaya çalışacağım.
