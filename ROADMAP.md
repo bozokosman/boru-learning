@@ -3,8 +3,9 @@
 > **Kısaca (TR):** Tek plan bu dosya. Önce CS50P sertifikası, sonra SQL, backend, AI ve iş başvurusu. Mini Library her aşamada büyüyen ana proje. İlk işten sonra "Old School" derinlik aşaması başlar. Yeni bir roadmap görürsen bu dosyayı değiştirmeden önce bir hafta bekle ve mentorunla konuş.
 
 **Goal:** Junior backend developer (Python + AI integration), job-ready by autumn 2027.
-**Time budget:** ~45-60 minutes a day, 5 days a week, next to a full-time job. 10 minutes still counts.
-**One project that grows with every stage:** [Mini Library](02-projects/06-mini-library/), from a dictionary menu (July 2026) to a deployed API with AI search.
+**Time budget:** ~3-5 hours a week next to a full-time job, usually 2-4 sessions of 60-120 minutes. 10 minutes still counts.
+**One project that grows with every stage:** [Mini Library](02-projects/06-mini-library/), from a dictionary menu (July 2026) to a deployed API with AI search. It is the spine, not a cage: one small side project per stage is welcome.
+**Where am I?** [NEXT.md](NEXT.md) always holds the single next step.
 
 ## Stage 1: Job-ready
 
@@ -40,14 +41,17 @@ My notes from Stage 1 (what I misunderstood and how I fixed it) are the raw mate
 
 ## Rules
 
-1. I write the code. AI is a teacher and a reviewer, not an author.
-2. Every topic ends with something I built, not something I watched.
-3. A missed day is fine. **Two missed days in a row is not.**
+1. I write the code. AI is a teacher and a reviewer, not an author: hints and questions, no code. Stuck for 15 minutes? Ask for a hint, not for the answer.
+2. Every topic ends with something I built, not something I watched. A new topic means rewriting a project I already know with the new tool (that is how Calculator v1-v4 happened).
+3. A missed day is fine; try not to miss two in a row. After a longer break, come back small: run the last code, read `NEXT.md`, no guilt.
 4. Folders are created when a topic starts, not before. Code first, structure second.
 5. Old versions are never deleted: v1, v2, v3... show how I learned.
 6. Each version gets a short `NOTES.md` entry in my own words: what I got wrong, how I fixed it.
 7. This is the only roadmap. A new roadmap or video waits one week before it can change anything here.
 8. Work, sleep and family come first. A plan that breaks them is a bad plan.
+9. Every session ends with one line in `NEXT.md`.
+10. New tools and setups get a one-hour box. They never eat a learning day; if it does not work in an hour, drop it.
+11. Before every push: no e-mail, password or API key in the files. Keys are never pasted into a chat; a leaked key is revoked.
 
 ## Checkpoints
 
